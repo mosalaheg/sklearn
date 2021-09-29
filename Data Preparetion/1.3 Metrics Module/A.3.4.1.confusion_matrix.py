@@ -5,7 +5,13 @@
         args :
             1- y_true: The true values of y
             2- y_prediction: The predicted values of y
-        
+            
+    TRUE / PRED :         Success            Faild
+    Success 820 :       700 TP (TS)        120 FP (FF) 
+    Failed  180 :       50  FN (FS)        130 TN (TF)
+
+    TP, and TN must be big as possible
+    
 """
 
 

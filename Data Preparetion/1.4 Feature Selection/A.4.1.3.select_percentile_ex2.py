@@ -6,5 +6,5 @@ X = data.data
 y = data.target
 X.shape
 sel = SelectPercentile(score_func = chi2 , percentile = 20).fit_transform(X,y)
-sel.shape
+print(sel.shape)
 

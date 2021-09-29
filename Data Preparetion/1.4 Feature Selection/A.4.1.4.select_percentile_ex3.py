@@ -1,5 +1,5 @@
 from sklearn.datasets import load_digits
-from sklearn.feature_selection import SelectPercentile, chi2
+from sklearn.feature_selection import SelectPercentile, chi2, f_classif
 X, y = load_digits(return_X_y=True)
 X.shape
 
